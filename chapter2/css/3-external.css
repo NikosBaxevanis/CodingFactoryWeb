@@ -1,8 +1,17 @@
+body {
+    background-color: lightcoral;
+}
+
 h1 {
     color:green
 }
 
-p {
+p , li {
     background-color: aqua;
     color: blue;
+}
+
+.aueb-logo {
+    color:red;
+    background-color: brown;
 }
