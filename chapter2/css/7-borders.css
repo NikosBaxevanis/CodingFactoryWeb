@@ -5,6 +5,7 @@ body {
 .aueb-img {
     width:250px;
     height: auto;
+    border: 2px solid yellow;
 }
 
 .aueb-title {
@@ -14,4 +15,10 @@ body {
     text-shadow: 2px 2px 0px black;
     color: #762124;
     text-align: center;
+    border-top: 2px;
+    border-left: 0px;
+    border-bottom: 2px;
+    border-right: 0px;
+    border-color: brown;
+
 }
