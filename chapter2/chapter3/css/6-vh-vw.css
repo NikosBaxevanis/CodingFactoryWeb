@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    border: 1px solid black;
+    height: 200px;
+}
+
+.aueb-img > img {
+    height: calc(95vh - 200px);
+    width: auto;
+}
