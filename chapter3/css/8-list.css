@@ -12,3 +12,7 @@
     width: 400px;
     height: auto;
 }
+
+.nav {
+    display: inline-block;
+}
