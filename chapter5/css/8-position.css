@@ -1,0 +1,58 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 400px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: relative;   */
+}
+
+.box1 {
+    border: 1px solid black;
+    padding: 80px;
+    background-color: lightblue;
+}
+
+.box2 {
+    border: 1px solid black;
+    padding: 80px;
+    background-color: lightcoral;
+}
+
+.box3 {
+    border: 1px solid black;
+    padding: 80px;
+    background-color: lightcyan;
+}
+
+.item-relative {
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.item-absolute {
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.item-fixed {
+    position: fixed;
+    top:10px;
+    left:10px;
+}
+
+.z-front {
+    z-index: 1; /*φερνει μπροστα απο αλλο αντικειμενο ενα αλλο. για να παιξει ομως πρεπει να υπαρχει position relative ή position absolute*/
+}
+
+.item-sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
