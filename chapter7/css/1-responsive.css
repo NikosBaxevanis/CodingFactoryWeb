@@ -1,0 +1,24 @@
+body {
+    background-color: red;
+    color: blue;
+}
+
+/* @media all {
+    body {
+        background-color: orange;
+        color: green;
+    }
+}  */
+
+
+@media (min-width: 992px) { /* για οθονες απο 992px και ανω */
+    body {
+        background-color: green;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        background-color: brown;
+    }
+}
