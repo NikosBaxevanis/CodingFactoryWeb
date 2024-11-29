@@ -142,3 +142,9 @@ code {
     font-family: 'Courier New', Courier, monospace;
 
 }
+
+@media (max-width:600px) {
+    .d-grid-template {
+        grid-template-columns: 100%;
+    }
+}
