@@ -1,6 +1,6 @@
 :root {
-    --color-light : rgb(201,197,197);
-    --color-primary: #007bff;
+    --color-light : lightgray;
+    --color-primary: blue;
 }
 
 * , *::after , *::before {
@@ -11,6 +11,23 @@
 
 .border-light {
     border: 1px solid var(--color-light);
+}
+
+
+.outline-none {
+    outline: none;
+}
+
+.width-lg {
+    width: 100%
+}
+
+.text-gray {
+    color : gray
+}
+
+.text-md {
+    font-size: medium;
 }
 
 .box-center {
@@ -40,6 +57,8 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+
 .text-lg {
     font-size: 1.7rem;
 }
@@ -66,4 +85,35 @@
 
 .p-1 {
     padding: 1rem;
+}
+
+
+.d-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    background-color: #1565c0;
+    color:white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.min-h {
+    min-height: 65px;
 }

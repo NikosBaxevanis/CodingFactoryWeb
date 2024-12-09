@@ -12,19 +12,32 @@
             <span class="text-serif text-lg text-semibold text-primary">Form</span>
         </div>
         <div>
-            <form action="">
+            <form id="formNum">
                 <div class="mb-xsm">
                     <label class="text-serif text-md text-bold" for="numberInput">Number</label>
                 </div>
                 <div class="min-h">
-                    <input class="numberInput border-light rounded outline-none transition-border-color p-1 width-lg text-gray" id="numberInput" type="text" placeholder="Please enter a number" required>
+                    <input class="border-light rounded outline-none transition-border-color p-1 width-lg text-gray text-md" id="numberInput" type="text" placeholder="Please enter a number" required>
                     <div class="mt-error">
-                        <span class="color-error text-md hidden">Number must be greater than 10</span>
+                        <span id="errorMessage" class="color-error text-md hidden" >
+                            Number must be greater than 10
+                        </span>
                     </div>
                 </div>
                 <div class="mt-xsm d-flex">
-                    <button class="btn text-bold">Submit</button>
+                    <button class="btn" type="submit">Submit</button>
                 </div>
+
+                <script>
+                    const form = document.getElementById('formNum');
+                    const numberInput = document.getElementById('numberInput');
+                    const errorMessage = document.getElementById('errorMessage');
+                    form.addEventListener('submit',function(e) {
+                        if (numberInput.value.length < 10) {
+                            e.preventDefault();
+                        }
+                    });
+                </script>
             </form>
         </div>
     </div>
