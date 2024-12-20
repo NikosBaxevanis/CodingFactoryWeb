@@ -1,0 +1,25 @@
+.navbar {
+    border-bottom: 1px solid #333333;
+}
+
+
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bg-dark {
+    background-color: #006994 !important;
+}
+
+header {
+    background-image: url(/chapter-bootstrap/corfu-app/images/462580053_1123181771978729_3462757949635941926_n.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
