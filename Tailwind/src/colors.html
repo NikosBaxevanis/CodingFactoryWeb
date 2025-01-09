@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: "#da373d"
+                    }
+                    
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="text-blue-900/10 hover:text-blue-500">
+        Hello Coding
+    </div>
+
+    <div class="text-[hsl(210,80%,50%,0.1)]">
+        Athens Uni of Econ and Bus
+        <!--hsl = color , saturation , lighting | στη 4η παραμετρο μπορουμε να δωσουμε opacity-->
+    </div>
+
+    <div class="text-[#FA125A50]">
+        <!--Στο τελος το "50" ειναι opacity-->
+        Hello Color Code!
+    </div>
+
+    <div class="text-[rgb(10,140,120 , 0.8)]">
+         <!--Στο τελος το "0.8" ειναι opacity-->
+        Hello Rgb
+    </div>
+    
+    <div class="text-clifford/70 hover:text-blue-700">
+                 <!--Στο τελος το "/70" ειναι opacity-->
+
+        Hello Custom Color!
+    </div>
+</body>
+</html>
