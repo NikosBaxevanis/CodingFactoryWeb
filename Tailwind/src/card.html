@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="max-w-sm py-8 px-8 mt-4 mx-auto space-y-2 bg-white shadow-lg rounded-xl sm:p-4 sm:flex sm:items-center sm:space-y-0 sm:gap-x-6 sm:justify-center">
+        <div>
+            <img class="h-24  rounded-full mx-auto shrink-0" src="../../images/persona.avif" alt="Profile Image">
+        </div>
+        <div class="text-center space-y-2 sm:text-left">
+            <div class="space-y-0.5" >
+                <p class="text-lg text-black font-semibold">Baxevanis Nikolaos</p>
+                <p class="text-slate-500 font-medium">In progress Developer</p>
+            </div>
+
+            <div>
+                <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-600 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">
+                    More Info
+                </button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
